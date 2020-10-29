@@ -1,14 +1,14 @@
 body{
-    background-color: #2093CC;
+    background-color: white;
 }
-.navBar ul{
+.flex1 ul{
     height: auto;
     background-color:rgb(51, 51, 51);
     display: flex;
     flex-direction: row;
     list-style-type: none;
 }
-.navBar li{
+.flex1 li{
     margin-left: 30px;
     margin-top: 13px;
     color: lightgray;
@@ -22,4 +22,28 @@ body{
 }
 i{
     margin-left: 550px;
+}
+.flex2{
+    background-color: #2093CC;
+    display: flex;
+    justify-content: center;
+}
+.listFlex2{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+.mecRelou img{
+    width: 225px;
+    height: 350px;
+}
+.imgFloue2{
+    display: flex;
+}
+.listFlex2 button{
+    background-color: orange;
+    border: white 2px solid;
+    border-radius: 5px;
+    color: white;
+
 }
