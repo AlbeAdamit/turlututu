@@ -1,44 +1,52 @@
-body{
+body {
     background-color: white;
 }
-.flex1 ul{
-    background-color:rgb(51, 51, 51);
+
+.flex1 ul {
+    background-color: rgb(51, 51, 51);
     display: flex;
     flex-direction: row;
     list-style-type: none;
     margin: auto;
 }
-.flex1 li{
+
+.flex1 li {
     margin-left: 30px;
     margin-top: 13px;
     color: lightgray;
 }
-.login li{
+
+.login li {
     margin-left: 10px;
 }
 
-i{
+i {
     margin-left: 550px;
 }
-.flex2{
+
+.flex2 {
     background-color: #2093CC;
     display: flex;
     justify-content: center;
 }
-.listFlex2{
+
+.listFlex2 {
     display: flex;
     flex-direction: column;
     list-style-type: none;
 }
-.mecRelou img{
-    width: 230px;
-    height: 350px;
-    padding-left: 100px;
+
+.mecRelou img {
+    padding-right: 150%;
+    height: 90%;
+    width: 45%;
 }
-.imgFloue2{
+
+.imgFloue2 {
     display: flex;
 }
-.listFlex2 button{
+
+.listFlex2 button {
     align-self: center;
     background-color: orange;
     border: white 2px solid;
@@ -48,5 +56,116 @@ i{
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    
+
+}
+
+.flex2 p {
+    font-size: x-large;
+    color: white;
+}
+
+.flex3 {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+}
+
+.flex3 p {
+    font-size: xx-large;
+    font-weight: lighter;
+}
+
+.flex4 {
+    background-color: #2093CC;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    text-justify: auto;
+}
+
+.flex4A {
+    max-width: 50%;
+    font-size: large;
+    flex-direction: column;
+    padding: 30px;
+
+}
+
+.flex4B {
+    max-width: 50%;
+    font-size: large;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.flex5 {
+    display: flex;
+    font-size: xx-large;
+    justify-content: center;
+}
+.flex6 {
+    background-color: #eeeeee;
+    display: flex;
+    justify-content: center;
+}
+.flex6B {
+    background-color: #eeeeee;
+    max-height: 50%;
+    display: flex;
+    justify-content: center;
+}
+.button {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.button .restApi{
+    border: 3px solid transparent;
+    background-color: rgb(0, 89, 255);
+    width: 10%;
+    text-align: center;
+    border-radius: 5px;
+    margin-right: 5px;
+    padding: 10px;
+}
+.button .docs{
+    border: 3px solid transparent;
+    background-color: rgb(0, 89, 255);
+    width: 10%;
+    text-align: center;
+    border-radius: 5px;
+    margin-right: 5px;
+    padding: 10px;
+}
+.button .startBuilding{
+    border: 3px solid transparent;
+    background-color: orange;
+    width: 10%;
+    text-align: center;
+    border-radius: 5px;
+    margin-right: 5px;
+    padding: 10px;
+}
+.footer{
+    background-color: rgb(51, 51, 51);
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+.flexFooterG{
+    display: flex;
+}
+.flexFooterG p{
+    margin-left: 1px;
+    margin-right: 1px;
+    border-right: 1px dotted white;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.flexFooterD {
+    display: flex;
+    padding-left: 59%;
 }
